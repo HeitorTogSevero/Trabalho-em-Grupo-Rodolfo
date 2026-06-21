@@ -1,11 +1,11 @@
 # Guia de Matemática - 1° Período
 
 # Nomes da Equipe
-6 - Eduardo Toledo Alves De Almeida
-12 - Heitor Tognelli Severo
-19 - Maria Eduarda Silva Dos Anjos 
-21 - Murilo De Borba Xavier 
-23 -  Pietra De Oliveira Silva Gomes
+6 - Eduardo Toledo Alves De Almeida<br>
+12 - Heitor Tognelli Severo<br>
+19 - Maria Eduarda Silva Dos Anjos<br>
+21 - Murilo De Borba Xavier<br>
+23 -  Pietra De Oliveira Silva Gomes<br>
 
 # O que tem em cada página 
 Página do aluno Eduardo Toledo(Função de 1° Grau) - A página feita pelo Eduardo fala que a Função Afim, também conhecida como Função do 1º Grau, é uma das funções mais estudadas na Matemática. Seu gráfico é uma reta e ela é utilizada para representar relações entre grandezas, como custos, lucros e variações ao longo do tempo.
