@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teoria dos Conjuntos</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 20px;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    h1, h2, h3 {
+        color: #333;
+    }
+
+    .caixa {
+        background-color: #eeeeee;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+
+    img {
+        display: block;
+        margin: 15px auto;
+        max-width: 450px;
+        width: 100%;
+    }
+
+    ul {
+        line-height: 1.6;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Teoria dos Conjuntos</h1>
+
+    <p>
+        A teoria dos conjuntos é um ramo da matemática que estuda a coleção de objetos, chamados de elementos. 
+        Os elementos (que podem ser qualquer coisa: números, pessoas, frutas) são indicados por letras minúsculas. 
+        Já os conjuntos são representados por letras maiúsculas e, normalmente, seus elementos aparecem entre chaves { }, separados por vírgula.
+    </p>
+
+    <div class="caixa">
+        <b>Exemplo:</b> A = {a, e, i, o, u}
+    </div>
+
+    <h2>Representação dos Conjuntos</h2>
+    <p>Um conjunto pode ser representado de algumas maneiras, dependendo da situação em que é usado:</p>
+
+    <ul>
+        <li>
+            <b>Diagrama de Venn:</b> Os conjuntos são representados graficamente por figuras planas fechadas (como círculos ou elipses) que "guardam" seus elementos. São excelentes para visualizar elementos repetidos ou conjuntos sem nada em comum (disjuntos).
+        </li>
+        <li>
+            <b>Tabular:</b> Utiliza as chaves { } para listar os elementos explicitamente. <br>
+            <i>Exemplos:</i> A = {1, 3, 9, 12, 17} ou B = {João, Luíza, Fernando, Lívia}
+        </li>
+        <li>
+            <b>Propriedade:</b> O conjunto é definido por uma regra ou característica comum de seus elementos. <br>
+            <i>Exemplo 1:</i> A = {x | x é uma vogal} (Lê-se: "O conjunto A é formado pelos elementos x, tal que x é uma vogal"). <br>
+            <i>Exemplo 2:</i> B = {x &isin; N; | x é múltiplo de 3} (Lê-se: "O conjunto B é formado pelos elementos x, tal que x pertença aos números naturais e seja um múltiplo de 3").
+        </li>
+    </ul>
+
+
+    <h2>Relações Básicas</h2>
+
+    <h3>(Elemento &rarr; Conjunto)</h3>
+    <p>Indica se um componente específico faz parte ou não de um determinado conjunto. É uma relação exclusiva entre elemento e conjunto.</p>
+    <ul>
+        <li><b>&isin; (Pertence):</b> Se D = {w, x, y, z}, então <b>w &isin; D</b> (w pertence ao conjunto D).</li>
+        <li><b>&notin; (Não pertence):</b> Usando o mesmo conjunto anterior, <b>j &notin; D</b> (j não pertence ao conjunto D).</li>
+    </ul>
+
+    <h3>Relação de Inclusão (Conjunto &rarr; Conjunto)</h3>
+    <p>Aponta a relação de subconjuntos existentes entre dois ou mais conjuntos:</p>
+    <ul>
+        <li><b>&sub; (Está contido):</b> Todos os elementos do primeiro conjunto estão no segundo.</li>
+        <li><b>&sube; (Não está contido):</b> Pelo menos um elemento do primeiro conjunto não faz parte do segundo.</li>
+        <li><b>&sup; (Contém):</b> O conjunto maior possui o conjunto menor dentro dele.</li>
+    </ul>
+
+    <div class="caixa">
+        <b>Exemplo de Inclusão:</b> <br>
+        Se A = {a, e, i, o, u} e B = {a, e, i, o, u, m, n, o}, temos que <b>A &sub; B</b> (A está contido em B) e <b>B &sup; A</b> (B contém A).
+    </div>
+
+    <h3>Conjunto Vazio</h3>
+    <p>O conjunto vazio é aquele que não possui nenhum elemento. Ele é representado por duas chaves sem nada dentro { } ou pelo símbolo &empty;. <b>Importante:</b> O conjunto vazio está contido (&sub;) em todos os conjuntos.</p>
+
+    <h2>União, Intersecção e Diferença entre Conjuntos</h2>
+    <p>As operações fundamentais ajudam a solucionar uma grande variedade de problemas matemáticos:</p>
+
+    <h3>União de Conjuntos (A &cup; B)</h3>
+    <p>Corresponde à junção dos elementos de dois ou mais conjuntos, sem repetir os elementos comuns. No diagrama de Venn, ela é representada pelo preenchimento de toda a imagem.</p>
+    <div class="caixa">
+        Se A = {1, 2, 3, 4} e B = {3, 4, 5, 6} &rarr; <b>A &cup; B = {1, 2, 3, 4, 5, 6}</b>
+    </div>
+
+    <h3>Intersecção de Conjuntos (A &cap; B)</h3>
+    <p>Corresponde apenas aos elementos que se repetem (são comuns) em ambos os conjuntos. No diagrama, é representada pintando unicamente a área de sobreposição (o meio).</p>
+    <div class="caixa">
+        Se C = {a, b, c, d, e} e D = {d, e, f, g, h} &rarr; <b>C &cap; D = {d, e}</b>
+    </div>
+
+    <h3>Diferença de Conjuntos (A - B)</h3>
+    <p>É o conjunto formado pelos elementos que estão no primeiro conjunto, mas não aparecem no segundo. No diagrama, pinta-se apenas a parte exclusiva do conjunto da esquerda.</p>
+    <div class="caixa">
+        Se A = {a, b, c, d, e} e B = {b, c, d, f, g} &rarr; <b>A - B = {a, e}</b>
+    </div>
+    <p><b>Atenção:</b> A ordem importa, portanto A - B &ne; B - A. No exemplo acima, B - A seria igual a {f, g}.</p>
+
+    <h2>Igualdade de Conjuntos</h2>
+    <p>Dois conjuntos são considerados idênticos (A = B) quando possuem exatamente os mesmos elementos, mesmo que eles estejam escritos em uma ordem diferente.</p>
+    <div class="caixa">
+        Exemplo: {1, 2, 3, 4, 5} = {3, 5, 4, 1, 2}
+    </div>
+
+</div>
+
+</body>
+</html>
