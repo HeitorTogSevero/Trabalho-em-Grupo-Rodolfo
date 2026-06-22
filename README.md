@@ -1,4 +1,4 @@
-# Guia de Matemática - 1° Período
+# Portal de Matemática - 1° Período
 
 # Nomes da Equipe
 6 - Eduardo Toledo Alves De Almeida<br>
@@ -17,3 +17,10 @@ Página da aluna Maria Eduarda(Teoria dos Conjuntos) - A página elaborada pela 
 Página do aluno Murilo(Matriz) - A página feita pelo Murilo fala que as matrizes são tabelas organizadas em linhas e colunas utilizadas para representar e organizar dados numéricos. Elas possuem grande importância na Matemática e em diversas áreas do conhecimento, permitindo realizar operações e resolver problemas de forma prática e eficiente.
 
 Página da aluna Pietra(Função Exponencial) - A página desenvolvida pela Pietra fala que a Equação Exponencial é uma equação matemática em que a incógnita aparece no expoente. Ela é muito utilizada para representar situações de crescimento e decrescimento, como juros compostos, crescimento populacional e propagação de vírus.
+
+# Como abrir o site 
+1 - Leia o nome dos temas e o representante<br>
+2 - Clique em "Página do(a) integrante" do representante do tema<br>
+3 - Para voltar a página inicial deslize a página até o final e clique em "Voltar para o Ínicio"<br>
+
+Dica: A ordem dos temas está de acordo com que foram ensinados em sala de aula com a professora Lisete no primeiro período de 2026.
